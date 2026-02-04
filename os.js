@@ -1,0 +1,23 @@
+const os = require('os');
+
+console.log("EOL:", os.EOL);
+console.log("Available Parallelism:", os.availableParallelism());
+console.log("Architecture:", os.arch());
+console.log("OS Constants:", os.constants);
+console.log("CPU Info:", os.cpus());
+console.log("Dev Null:", os.devNull);
+console.log("Endianness:", os.endianness());
+console.log("Free Memory:", os.freemem());
+console.log("Home Directory:", os.homedir());
+console.log("Host Name:", os.hostname());
+console.log("Load Average:", os.loadavg());
+console.log("Machine:", os.machine());
+console.log("Network Interfaces:", os.networkInterfaces());
+console.log("Platform:", os.platform());
+console.log("OS Release:", os.release());
+console.log("Temp Directory:", os.tmpdir());
+console.log("Total Memory:", os.totalmem());
+console.log("OS Type:", os.type());
+console.log("System Uptime (seconds):", os.uptime());
+console.log("User Info:", os.userInfo());
+console.log("OS Version:", os.version());
